@@ -1,0 +1,116 @@
+.aside h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.aside img {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+.aside ul {
+    margin-top: 30px;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+.aside ul li {
+   font-size: 20px;
+   margin: 6px;
+}
+
+li a {
+    text-decoration: none;
+    color: white
+}
+
+@media screen and (max-width: 600px) {
+    .aside ul li {
+        display: inline-block;
+        background-color: #93ac13;
+        color: white;
+        padding: 3px;
+        border-radius: 7px;
+        width: 100px;
+        text-align: center;
+    }
+}
+
+.main>div>h2 {
+    font-size: 30px;
+    color: #F44336;
+}
+.main .image img{
+    display: inline-block;
+    width: 45%;
+    height: 150px;
+    margin: 5px;
+}
+
+.info {
+    display: inline-block;
+    width: 45%;
+    height: auto;
+    margin: 5px;
+    background-color: #dbd3d3;
+}
+.info img{
+    width: 100%;
+    height: 30%;
+}
+.info p {
+   margin-left: 4px;
+}
+
+.sub-package {
+    display: inline-block;
+    width: 48%;
+}
+.sub-package ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.sub-package ul li {
+    background-color: thistle;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #746f6f;
+}
+.sub-package ul li button {
+   background-color: rgb(97, 97, 241);
+   padding: 8px;
+   border-radius: 4px;
+   color: white;
+   border: 0;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4c9baf;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #1c20f0;
+}
+
+textarea {
+   resize: vertical;
+}
